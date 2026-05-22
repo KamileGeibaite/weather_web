@@ -2,7 +2,7 @@ function PopularCities({ popularCities, cities, onSelectCity }) {
   if (popularCities.length === 0) {
     return (
       <p className="mt-4 text-sm text-slate-500">
-        Mostly viewed cities will appear here after you select cities.
+        Mostly viewed cities will appear here.
       </p>
     );
   }

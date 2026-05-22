@@ -69,7 +69,6 @@ function App() {
   };
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchWeather(selectedCity);
   }, [selectedCity]);
 
@@ -84,7 +83,7 @@ function App() {
             Check weather by city
           </h1>
           <p className="mt-2 max-w-2xl text-slate-600">
-            Select a Lithuanian city and see current conditions with a 5 day forecast.
+            Select a city and see current conditions and a 5 day forecast.
           </p>
         </header>
 
@@ -105,7 +104,7 @@ function App() {
 
         {isLoading ? (
           <div className="rounded-lg bg-white p-6 text-slate-600 shadow-sm">
-            Loading weather data...
+            Loading weather data
           </div>
         ) : (
           weather && (
