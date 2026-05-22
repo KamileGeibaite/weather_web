@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #dbeafe;
+  color: #14213d;
+}
+
+* {
+  box-sizing: inherit;
+}
